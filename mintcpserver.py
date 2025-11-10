@@ -2,7 +2,7 @@ from socket import *
 import threading
 import json
 
-serverport = 12538
+serverport = 12540
 serverSocket = socket(AF_INET, SOCK_STREAM)
 serverSocket.bind(('', serverport))
 serverSocket.listen(1)
